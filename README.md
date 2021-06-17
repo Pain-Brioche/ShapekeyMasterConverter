@@ -19,6 +19,6 @@ ShapeAnimator.xml is left untouched during the process.
 Any previous ShapeKeyMaster.Json in the destination folder will be backed up.  
 Animated shape keys will be ported as static ones as both plugins use different methodes.
 
-### Knon issues
+### Knwon issues
 Maids without Name or Surname may need to be reassigned until I find a solution:
 In ShapeKeyMaster's UI > Maid tab > find your maid > rename > select the correct one.
