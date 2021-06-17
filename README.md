@@ -4,7 +4,7 @@ Converts your ShapeAnimator.xml into ShapeKeyMaster.Json
 
 ### How to use:
 
-Download ShapekeyMasterConverter.exe and run it.
+Download ShapekeyMasterConverter.exe and run it.  
 If COM3D2 has proper entries in the registry everything is automated,
 ShapeKeyMaster.Json will be created and placed in BepinEx\config\ where it belongs.
 
@@ -15,5 +15,5 @@ place it correctly afterward.
 
 
 ### Notes:
-ShapeAnimator.xml is left untouched during the process.
+ShapeAnimator.xml is left untouched during the process.  
 Any previous ShapeKeyMaster.Json in the destination folder will be backed up.
