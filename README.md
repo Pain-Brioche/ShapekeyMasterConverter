@@ -16,4 +16,5 @@ place it correctly afterward.
 
 ### Notes:
 ShapeAnimator.xml is left untouched during the process.  
-Any previous ShapeKeyMaster.Json in the destination folder will be backed up.
+Any previous ShapeKeyMaster.Json in the destination folder will be backed up.  
+Animated shape keys will be ported as static ones as both plugins use different methodes.
