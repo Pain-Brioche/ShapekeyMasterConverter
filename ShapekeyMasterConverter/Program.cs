@@ -13,11 +13,11 @@ namespace ShapekeyMasterConverter
     {
         static readonly string jpRegistryPath = @"SOFTWARE\KISS\カスタムオーダーメイド3D2";
         static readonly string engRegistryPath = @"SOFTWARE\KISS\CUSTOM ORDER MAID3D 2";
+        static readonly string shapeanimatorConfigPath = @"\Sybaris\UnityInjector\config\ShapeAnimator.xml";
+        static readonly string bepinExConfigPath = @"\BepinEx\config\";
+        static readonly string shapekeyMasterConfigName = "ShapekeyMaster.Json";
         static string installPath;
         static string shapeanimatorXmlPath;
-        static string shapeanimatorConfigPath = @"\Sybaris\UnityInjector\config\ShapeAnimator.xml";
-        static string bepinExConfigPath = @"\BepinEx\config\";
-        static string shapekeyMasterConfigName = "ShapekeyMaster.Json";
         static string jsonPath;
 
         private static void Main()
