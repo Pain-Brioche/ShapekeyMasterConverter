@@ -90,8 +90,8 @@ namespace ShapekeyMasterConverter
                                     Maid = (string)element.Attribute("name").Value.Trim().Replace("*", ""),
                                     ShapeKey = (string)element.Attribute("tag"),
                                     Deform = Math.Round((decimal)element.Attribute("val") * 100, 1),
-                                    Collapsed = (bool)element.Attribute("fold"),
-                                    Enabled = (bool)element.Attribute("enable"),
+                                    //Collapsed = (bool)element.Attribute("fold"),
+                                    // Enabled = (bool)element.Attribute("enable"),
                                     Id = Guid.NewGuid()
                                 }).ToList();
 
@@ -125,7 +125,6 @@ namespace ShapekeyMasterConverter
             {
                 string date = DateTime.Now.ToString("yymmdd-hhmmss");
                 string backupPath = Path.Combine(Path.GetDirectoryName(path), string.Concat(Path.GetFileNameWithoutExtension(path), date, Path.GetExtension(path)));
-                Console.WriteLine(backupPath);
                 File.Move(path, backupPath);
                 Console.WriteLine("\nOld ShapekeyMaster.json backed up as " + backupPath);
             }
